@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -22,4 +23,54 @@ body {
     align-items: center;
     color: white;
     border: white 0.3rem solid;
+}
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.circle1{
+    background-color: #fe8888;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+.circle2{
+    background-color: yellow;
+    width: 120px;
+    height:120px;
+    top: 80px;
+    left: 250px;
+    z-index: 1;
+
+}
+.circle3{
+    background-color:#fe8888;
+    width: 50px;
+    height: 50px;
+    top: 80px;
+    left: 900px;
+    z-index: 1;
+}
+
+.circle4{
+    background-color:#fe8888;
+    width: 50px;
+    height: 50px;
+    top: 120px;
+    left: 20px;
+    z-index: 1;
+}
+.circle5{
+    background-color:#fe8888;
+    width: 50px;
+    height: 50px;
+    top: 120px;
+    left: 20px;
+    z-index: 1;
 }
